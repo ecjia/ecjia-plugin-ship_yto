@@ -6,7 +6,7 @@ defined('IN_ECJIA') or exit('No permission resources.');
 
 $LANG['yto']          	= '圆通速递';
 $LANG['yto_desc']     	= '上海圆通物流（速递）有限公司经过多年的网络快速发展，在中国速递行业中一直处于领先地位。为了能更好的发展国际快件市场，加快与国际市场的接轨，强化圆通的整体实力，圆通已在东南亚、欧美、中东、北美洲、非洲等许多城市运作国际快件业务';
-$LANG['item_fee'] 		= '单件商品费用：';
+$LANG['item_fee'] 		= '单件商品费用';
 $LANG['base_fee'] 		= '首重费用';
 $LANG['step_fee'] 		= '续重费用';
 /* 快递单部分 */
