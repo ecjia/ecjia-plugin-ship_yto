@@ -76,6 +76,11 @@ class plugin_ship_yto {
     }
 }
 
+Ecjia_PluginManager::extend('ship_yto', function() {
+    require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_yto.class.php';
+    return new ship_yto();
+});
+
 RC_Plugin::register_activation_hook(__FILE__, array('plugin_ship_yto', 'install'));
 RC_Plugin::register_deactivation_hook(__FILE__, array('plugin_ship_yto', 'uninstall'));
 RC_Hook::add_filter('shipping_factory_adapter_instance', array( 'plugin_ship_yto', 'adapter_instance' ), 10, 2);
