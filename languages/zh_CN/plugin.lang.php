@@ -53,12 +53,12 @@ return array(
     'yto'                    => '圆通速递',
     'yto_desc'               => '上海圆通物流（速递）有限公司经过多年的网络快速发展，在中国速递行业中一直处于领先地位。为了能更好的发展国际快件市场，加快与国际市场的接轨，强化圆通的整体实力，圆通已在东南亚、欧美、中东、北美洲、非洲等许多城市运作国际快件业务',
 
-    'item_fee'               => '单件商品费用',
-    'base_fee'               => '首重费用',
-    'step_fee'               => '续重费用',
-    'pay_fee'                => '货到付款支付费用',
-    'free_money'             => '免费额度',
-    'fee_compute_mode'       => '费用计算方式',
+    'item_fee'               => '单件商品费用：',
+    'base_fee'               => '首重费用：',
+    'step_fee'               => '续重费用：',
+    'pay_fee'                => '货到付款支付费用：',
+    'free_money'             => '免费额度：',
+    'fee_compute_mode'       => '费用计算方式：',
     'fee_compute_mode_range' => array(
         'by_weight' => '按重量',
         'by_number' => '按件数'
