@@ -63,6 +63,19 @@ return array(
         array('name' => 'free_money', 'type' => 'text', 'value' => 0), /* 免费额度  */
         array('name' => 'pay_fee', 'type' => 'text', 'value' => 0), /* 货到付款支付费用  */
     ),
+
+    'dynamic_option' => array(
+        'item_fee'               => __('单件商品费用：', 'ship_yto'),
+        'base_fee'               => __('首重费用：', 'ship_yto'),
+        'step_fee'               => __('续重费用：', 'ship_yto'),
+        'pay_fee'                => __('货到付款支付费用：', 'ship_yto'),
+        'free_money'             => __('免费额度：', 'ship_yto'),
+        'fee_compute_mode'       => __('费用计算方式：', 'ship_yto'),
+        'fee_compute_mode_range' => array(
+            'by_weight' => __('按重量', 'ship_yto'),
+            'by_number' => __('按件数', 'ship_yto')
+        ),
+    ),
 );
 
 // end
