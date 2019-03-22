@@ -82,28 +82,35 @@ return array(
         'lable_select_notice' => __('--选择插入标签--', 'ship_yto'),
 
         'lable_box' => array(
+        	'shop_name'             => __('网店-名称', 'ship_yto'),
+        	'shop_tel'              => __('网店-联系电话', 'ship_yto'),
             'shop_country'          => __('网店-国家', 'ship_yto'),
             'shop_province'         => __('网店-省份', 'ship_yto'),
             'shop_city'             => __('网店-城市', 'ship_yto'),
-            'shop_name'             => __('网店-名称', 'ship_yto'),
             'shop_district'         => __('网店-区/县', 'ship_yto'),
-            'shop_tel'              => __('网店-联系电话', 'ship_yto'),
+        	'shop_street'         	=> __('网店-街道', 'ship_yto'),
             'shop_address'          => __('网店-地址', 'ship_yto'),
+        		
+        	'customer_name'         => __('收件人-姓名', 'ship_yto'),
+        	'customer_tel'          => __('收件人-电话', 'ship_yto'),
+        	'customer_mobel'        => __('收件人-手机', 'ship_yto'),
+        	'customer_post'         => __('收件人-邮编', 'ship_yto'),
             'customer_country'      => __('收件人-国家', 'ship_yto'),
             'customer_province'     => __('收件人-省份', 'ship_yto'),
             'customer_city'         => __('收件人-城市', 'ship_yto'),
             'customer_district'     => __('收件人-区/县', 'ship_yto'),
-            'customer_tel'          => __('收件人-电话', 'ship_yto'),
-            'customer_mobel'        => __('收件人-手机', 'ship_yto'),
-            'customer_post'         => __('收件人-邮编', 'ship_yto'),
+        	'customer_street'     	=> __('收件人-街道', 'ship_yto'),
             'customer_address'      => __('收件人-详细地址', 'ship_yto'),
-            'customer_name'         => __('收件人-姓名', 'ship_yto'),
+           
+        		
             'year'                  => __('年-当日日期', 'ship_yto'),
             'months'                => __('月-当日日期', 'ship_yto'),
             'day'                   => __('日-当日日期', 'ship_yto'),
+        		
             'order_no'              => __('订单号-订单', 'ship_yto'),
             'order_postscript'      => __('备注-订单', 'ship_yto'),
             'order_best_time'       => __('送货时间-订单', 'ship_yto'),
+        		
             'pigeon'                => __('√-对号', 'ship_yto'),
             //'custom_content' => '自定义内容',
         ),
